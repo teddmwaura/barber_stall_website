@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Barber Shop Website</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" hre f="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+<script src="https://www.flaticon.com/edge/redirect?url=aHR0cHM6Ly9hZG9iZS5wcmYuaG4vY2xpY2svY2FtcmVmOjEwMTFscmNLSy9jcmVhdGl2ZXJlZjoxMDExbDkwNzE3L3B1YnJlZjpHQTEuMi4zMDgzNDQxMTQuMTY4MzgzNzU3Mi9kZXN0aW5hdGlvbjpodHRwcyUzQSUyRiUyRnN0b2NrLmFkb2JlLmNvbSUyRmltYWdlcyUyRmlkJTJGMTk1OTk4Nzk4JTNGayUzRHNoaWVsZCUyNTIwaWNvbg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<div id="videodiv">
+<div class="videotext">
+<h1>Hair Salon</h1>
+<p>Style Your Hair is Style Your Life</p>
+<div class="videobanner">
+<a href="#"><span></span>Find Out</a>
+<a href="#"><span></span>Read More</a>
+</div>
+</div>
+</div>
+<div id="videonav">
+<nav>
+<ul>
+<li><a href="#videodiv">Home</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#service">Services</a></li>
+<li><a href="#test">Testimonials</a></li>
+<li><a href="#footer">Meet Us</a></li>
+</ul>
+</nav>
+</div>
+<div id="menuvideo">
+<img src="E:\Projects\websites\barber_shop_website\images\hamburger-menu.svg"  id="menu">
+</div>
+<div id="features">
+<div class="title-text">
+<p>FEATURES</p>
+<h1>Why Choose Us</h1>
+</div>
+<div class="feature">
+<div class="left">
+<h1>Experienced Staff</h1>
+<div class="description">
+<div class="van">
+<img src="https://cdn-icons-png.flaticon.com/128/786/786447.png">
+</div>
+<div class="car">
+<p>Donec eget ultricies sapi, sed porttitor, mauris after lob facilisis, elit sapie eleifend ligula.</p>
+</div>
+</div>
+<h1>Pre Booking Online</h1>
+<div class="description">
+<div class="van">
+<img src="https://t4.ftcdn.net/jpg/03/03/72/17/240_F_303721767_iNO49Cr0bPrcZT9eIuTr0VUa5QXuK1es.jpg">
+</div>
+<div class="car">
+<p>Donec eget ultricies sapi, sed porttitor, mauris after lob facilisis, elit sapie eleifend ligula.</p>
+</div>
+</div>
+<h1>Affordable Cost</h1>
+<div class="description">
+<div class="van">
+<img src="data:image/png;base64,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">
+</div>
+<div class="car">
+<p>Donec eget ultricies sapi, sed porttitor, mauris after lob facilisis, elit sapie eleifend ligula.</p>
+</div>
+</div>
+</div>
+<div class="right">
+<img src="https://cdn.shopify.com/s/files/1/0265/0518/3304/files/church-barber2_1800x_2712cbfe-0c2b-4492-9b9a-a9213b4a339f_1600x.webp?v=1654464363">
+</div>
+</div>
+</div>
+<section id="service">
+<div class="title-text">
+<p>Services</p>
+<h1>We Provide Better</h1>
+</div>
+<div class="linesman">
+<div class="line">
+<img src="https://media.istockphoto.com/id/1320491641/photo/young-man-having-a-haircut-at-a-barbershop.jpg?b=1&s=170667a&w=0&k=20&c=uhT8VZnPwP6L2BVSPunARkhz8p5V2y3N1pMktr9AJb4=">
+<div class="lay"></div>
+<div class="vid">
+<h3>Hair Styling</h3>
+<hr>
+<p>This is test under description of barber foundation this is test under description of barber foundation</p>
+</div>
+</div>
+<div class="line">
+<img src="https://media.istockphoto.com/id/987634696/photo/barber-applies-shaving-foam.jpg?s=612x612&w=0&k=20&c=6xI_eQXqctn2t-TTj25oHubD9_-_8Dq7Dqqms7cfpbg=">
+<div class="lay"></div>
+<div class="vid">
+<h3>Beard Trimming</h3>
+<hr>
+<p>This is test under description of barber foundation this is test under description of barber foundation</p>
+</div>
+</div>
+<div class="line">
+<img src="https://media.gettyimages.com/id/872361244/photo/man-getting-his-beard-trimmed-with-electric-razor.jpg?s=612x612&w=gi&k=20&c=4MYCbEzH7sr2edK0XgOLePS0UEiM1KrepZAIzsp9Q6s=">
+<div class="lay"></div>
+<div class="vid">
+<h3>Dry Cut</h3>
+<hr>
+<p>This is test under description of barber foundation this is test under description of barber foundation</p>
+</div>
+</div>
+<div class="line">
+<img src="https://media.istockphoto.com/id/626416292/photo/the-hands-of-young-barber-making-haircut-to-attractive-man.jpg?s=612x612&w=0&k=20&c=kWoXXYFdXZzXvNfBSNNCT9MMJhPngx-SMBV1asorB2g=">
+<div class="lay"></div>
+<div class="vid">
+<h3>Dry Shampoo</h3>
+<hr>
+<p>This is test under description of barber foundation this is test under description of barber foundation</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="test">
+<div class="title-text">
+<p>Testimonials</p>
+<h1>What Client Says</h1>
+</div>
+<div class="row">
+<div class="column">
+<div class="user">
+<img src="C:\Users\User\Desktop\html-css-course\Images\barber.jpg">
+<div class="don">
+<h4>Ken Norman</h4>
+<small>@kennoman</small>
+</div>
+</div>
+<p>
+Donec eget Ultricities sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi.Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi
+</p>
+</div>
+<div class="column">
+<div class="user">
+<img src="https://bookwell.imgix.net/salon_images/31f336e3-060d-4af9-8633-c422257bf38d.jpg?&w=1260&h=840&fm=jpg&auto=compress&fit=crop">
+<div class="don">
+<h4>Liara Karian</h4>
+<small>@liarakarian</small>
+</div>
+</div>
+<p>
+Donec eget Ultricities sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi.Donec eget ultricies sapi.
+</p>
+</div>
+<div class="column">
+<div class="user">
+<img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article21411590.ece/ALTERNATES/s615/0_gettyimages-1207048163-170667a.jpg">
+<div class="don">
+<h4>Rick Ross </h4>
+<small>@rickross</small>
+</div>
+</div>
+<p>
+Donec eget Ultricities sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi.Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi
+</p>
+</div>
+</div>
+</section>
+<section id="footer">
+<img src="https://i.pinimg.com/474x/7f/46/86/7f46865f96a85c474f4adf7d0b7c77dd.jpg" class="footer-img">
+<div class="title-text">
+<p>Contact</p>
+<h1>Visit Shop Today</h1>
+</div>
+<div class="footer-row">
+<div class="footer-left">
+<h1>Opening Hours</h1>
+<p>Monday - Friday: 8.00 a.m to 6.00 p.m</p>
+<p>Saturaday - Sunday: 11.00 a.m to 6.00 p.m</p>
+
+</div>
+
+<div class="footer-right">
+<h1>Get in Touch</h1>
+<p>#30 abc Colony, xyz City IN</p>
+<p>example@website.com</p>
+<p>0742037243</p>
+</div>
+<div class="links">
+<div class="links-image">
+<img src="C:\Users\User\Desktop\html-css-course\website images\5968764.png">
+</div>
+<div class="links-image">
+<img src="C:\Users\User\Desktop\html-css-course\website images\3955024.png">
+</div>
+<div class="links-image">
+<img src="C:\Users\User\Desktop\html-css-course\website images\733579.png">
+</div>
+<div class="links-image">
+<img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png">
+</div>
+<p>Copyrights Easy Tutorials Youtube Channel</p>
+</div>
+</div>
+</section>
+<script>
+var menuvideo =document.getElementById("menuvideo")
+var videonav =document.getElementById("videonav")
+var menu =document.getElementById("menu")
+menuvideo.onclick = function(){
+if(videonav.style.right == "-250px"){
+videonav.style.right = "0";
+
+
+}
+else{
+videonav.style.right = "-250px";
+
+}
+}
+var scroll =new SmoothScroll('a[href*="#"]',{
+speed: 1000,
+speedAsDuration: true
+
+
+});
+</script>
+
+
+</body>
+</html> 
